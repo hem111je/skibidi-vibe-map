@@ -1,7 +1,7 @@
 # Skibidi Vibe Map
 
 ## About the Project  
-**Skibidi Vibe Map** is my first ever playful, chaotic web app designed to delightfully derail your productivity. Instead of helping you stay on task, it delivers absurd responses and memes to ensure you're thoroughly distracted. This project blends humor, randomness, and internet culture into a unique and interactive experience.
+**Skibidi Vibe Map** is my first ever submission to a hackathon, link provided here: https://brainrot-jia-seed-hackathon.devpost.com/. I have very little coding experience but I love to challenge myself! The submission is supposed to be playful, chaotic web app designed to delightfully derail your productivity. Instead of helping you stay on task, it delivers absurd responses and memes to ensure you're thoroughly distracted. This project blends humor, randomness, and internet culture into a unique and interactive experience.
 
 ## Features  
 - **Chaotic Task Suggestions**  
@@ -15,4 +15,5 @@
 
 ---
 
-This app is a celebration of absurdity and procrastination, offering a lighthearted escape from the grind. Let the vibes flow!
+This site is a celebration of absurdity and procrastination, offering a lighthearted escape from the grind. 
+It's not just a site - it's  vibe!
