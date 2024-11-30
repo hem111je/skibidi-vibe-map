@@ -1,0 +1,144 @@
+/* basicstyling */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+img.centered-meme {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 80%; /* Varmistaa, ettei kuva ole liian suuri */
+    max-height: 80%; /* Pitää kuvan korkeuden hallinnassa */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+/* font and moving elements */
+h1 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 4em;
+    color: #ff6347;
+    text-transform: uppercase;
+    animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.1); }
+}
+
+#task-container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadeIn 2s ease-out;
+}
+
+/* animation for input */
+input[type="text"] {
+    font-family: 'Arial', sans-serif;
+    padding: 10px;
+    font-size: 1.2em;
+    width: 60%;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    animation: pulse 2s infinite alternate;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.05); }
+}
+
+button {
+    font-family: 'Rock Salt', cursive;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    animation: escape 2s infinite alternate;
+    position: relative;
+}
+
+/* "maxx it" -button movement */
+button:hover {
+    background-color: #ff4500;
+    animation: none; /* removing pulse during hover */
+    animation: escape 1s infinite alternate;
+}
+
+@keyframes escape {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    25% {
+        left: 30px;
+        top: -30px;
+    }
+    50% {
+        left: -30px;
+        top: 30px;
+    }
+    75% {
+        left: 20px;
+        top: -20px;
+    }
+    100% {
+        left: 0;
+        top: 0;
+    }
+}
+
+/* responses and meme style */
+#results {
+    font-family: 'Courier New', monospace;
+    font-size: 5em;
+    color: #ff6347;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #111;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 99, 71, 0.7);
+    animation: fadeIn 2s ease-out;
+}
+
+/* random meme response */
+.meme-response {
+    font-family: 'Impact', sans-serif;
+    font-size: 5em;
+    color: #ff6347;
+    text-transform: uppercase;
+    animation: shake 1s infinite alternate;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(5px); }
+}
+
+/* animation to responses */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
