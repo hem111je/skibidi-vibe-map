@@ -17,3 +17,6 @@
 
 This site is a celebration of absurdity and procrastination, offering a lighthearted escape from the grind. 
 It's not just a site - it's  vibe!
+
+## Link to my Devpost site:
+- https://devpost.com/he111je?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav
